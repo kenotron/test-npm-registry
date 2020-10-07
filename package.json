@@ -1,0 +1,17 @@
+{
+  "name": "testbb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "dependencies": {
+    "verdaccio": "^4.8.0",
+    "verdaccio-auth-memory": "^9.7.1",
+    "verdaccio-memory": "^9.7.1"
+  },
+  "scripts": {
+    "reg": "verdaccio -c verdaccio.config.yaml"
+  }
+}
